@@ -1,0 +1,5 @@
+W obu przypadkach funkcja fzero użyła dwóch algorytmów - bisekcji i interpolacji.
+
+Dla wartości 4.5 funkcja nie znalazła rozwiązania, ponieważ tan(x) nie jest funkcją ciągłą. Obliczenia zajeły 68 iteracji. Funkcja fzero najpierw szuka zmiany znaku a w tym przypadku bliższa zmiana znaku następuje w miejscu w którym obie krzywe dążą do przeciwnych nieskończonośći. 
+
+Dla wartości 6 funkcja znalazła rozwiązanie po 13 iteracjach. W tym przypadku nie ma takiego problemu.
